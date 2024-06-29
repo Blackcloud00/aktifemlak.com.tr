@@ -18,30 +18,17 @@
     <link rel="stylesheet" href="assets/css/lib/aos.css">
     <link rel="stylesheet" href="assets/fonts/stylesheet.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/satilik_ilanlar.css">
 </head>
 <body>
     
     <?php  include "_header.php";  ?>
     
-    <?php  include "_slider.php";  ?>
+    <?php  include "_header_banner.php";  ?>
 
-    <?php  include "_values.php";  ?>
+    <?php  include "_category.php";  ?>
 
-    <?php
-    $title= "Öne Çıkan İlanlar";
-    $class= "";
-    include "_popular_sales.php";  ?>
-    
-    <?php include "_popular_category.php"; ?>
-
-    <?php  
-    $title= "Yeni İlanlar";
-    $class= "renk_item_2";
-    include "_popular_sales.php";  ?>
-
-    <?php include "_customer_comments.php"; ?>
-
-    <?php include "_branches.php"; ?>
+    <?php include "_category_list.php"; ?>
 
     <?php  include "_footer.php";  ?>
 

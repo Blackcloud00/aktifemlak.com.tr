@@ -3,21 +3,21 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
-                <div class="text_area">
+                <div class="text_area" data-aos="zoom-in">
                     <h2 class="h2">10 Yıllık Tecrübe ile Güvenilir ve Profesyonel Hizmet</h2>
                     <p>Aktif Emlak olarak, gayrimenkul sektöründeki 10 yıllık tecrübemizle sizlere güvenilir, kaliteli ve profesyonel hizmet sunmaktan gurur duyuyoruz.</p>
                 </div>
             </div>
             <div class="swiper-slide">
                 <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
-                <div class="text_area">
+                <div class="text_area" data-aos="zoom-in">
                     <h2 class="h2">10 Yıllık Tecrübe ile Güvenilir ve Profesyonel Hizmet</h2>
                     <p>Aktif Emlak olarak, gayrimenkul sektöründeki 10 yıllık tecrübemizle sizlere güvenilir, kaliteli ve profesyonel hizmet sunmaktan gurur duyuyoruz.</p>
                 </div>
             </div>
             <div class="swiper-slide">
                 <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
-                <div class="text_area">
+                <div class="text_area" data-aos="zoom-in">
                     <h2 class="h2">10 Yıllık Tecrübe ile Güvenilir ve Profesyonel Hizmet</h2>
                     <p>Aktif Emlak olarak, gayrimenkul sektöründeki 10 yıllık tecrübemizle sizlere güvenilir, kaliteli ve profesyonel hizmet sunmaktan gurur duyuyoruz.</p>
                 </div>
@@ -44,7 +44,7 @@
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
                 <div class="row">
-                    <div class="col-xl-3">
+                    <div class="col-md-3 mb-md-0 mb-4">
                         <select name="all_city" id="all_city">
                             <option value="Tüm Şehirler">Tüm Şehirler</option>
                             <option value="İstanbul">İstanbul</option>
@@ -54,17 +54,17 @@
                             <option value="Rize">Rize</option>
                         </select>
                     </div>
-                    <div class="col-xl-6  px-0">
+                    <div class="col-md-6  px-md-0 mb-md-0 mb-4">
                         <input type="text" placeholder="Anahtar kelimeler (ör, ofis, satılık villa, arazi)" class="input_area" name="search">
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-md-3">
                         <a href="#" title="Arama" class="arama_button">Arama</a>
                     </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="nav-satilik" role="tabpanel" aria-labelledby="nav-satilik-tab">
                 <div class="row">
-                        <div class="col-xl-3">
+                        <div class="col-md-3 mb-md-0 mb-4">
                             <select name="all_city" id="all_city">
                                 <option value="Tüm Şehirler">Tüm Şehirler</option>
                                 <option value="İstanbul">İstanbul</option>
@@ -74,17 +74,17 @@
                                 <option value="Rize">Rize</option>
                             </select>
                         </div>
-                        <div class="col-xl-6  px-0">
+                        <div class="col-md-6  px-md-0 mb-md-0 mb-4">
                             <input type="text" placeholder="Anahtar kelimeler (ör, ofis, satılık villa, arazi)" class="input_area" name="search">
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-md-3">
                             <a href="#" title="Arama" class="arama_button">Arama</a>
                         </div>
                 </div> 
             </div>
             <div class="tab-pane fade" id="nav-kiralik" role="tabpanel" aria-labelledby="nav-kiralik-tab">
             <div class="row">
-                    <div class="col-xl-3">
+                    <div class="col-md-3 mb-md-0 mb-4">
                         <select name="all_city" id="all_city">
                             <option value="Tüm Şehirler">Tüm Şehirler</option>
                             <option value="İstanbul">İstanbul</option>
@@ -94,10 +94,10 @@
                             <option value="Rize">Rize</option>
                         </select>
                     </div>
-                    <div class="col-xl-6  px-0">
+                    <div class="col-md-6  px-md-0 mb-md-0 mb-4">
                         <input type="text" placeholder="Anahtar kelimeler (ör, ofis, satılık villa, arazi)" class="input_area" name="search">
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-md-3">
                         <a href="#" title="Arama" class="arama_button">Arama</a>
                     </div>
                 </div>

@@ -5,11 +5,14 @@
                 <img src="assets/image/logo.png" width="175" height="43" alt="Aktif Emlak Logo">
             </div>
             <ul class="menu_ul">
+                <div class="img_area">
+                    <a class="btn_menu_close"><img src="assets/image/icons/cancel.png" width="60" height="60" alt="Aktif Emlak Hamburger"></a>
+                </div>
                 <li class="menu_li active">
-                    <a href="#" title="Ana Sayfa">Ana Sayfa</a>
+                    <a href="index.php" title="Ana Sayfa">Ana Sayfa</a>
                 </li>
                 <li class="menu_li">
-                    <a href="#" title="Satılık">Satılık</a>
+                    <a href="satilik_ilanlar_liste.php" title="Satılık">Satılık</a>
                 </li>
                 <li class="menu_li">
                     <a href="#" title="Kiralık">Kiralık</a>
@@ -41,6 +44,9 @@
                     <a href="#" title="Kayıt Ol" class="active_kayit">Kayıt Ol</a>
                 </li>
             </ul>
+            <a href="#" class="menu_open_button">
+                <img src="assets/image/icons/hamburger.png" width="25" height="25" alt="Aktif Emlak Hamburger">
+            </a>
         </div>
     </div>
 </header>

@@ -1,7 +1,7 @@
 <section class="branches normal">
     <div class="container">
         <h2 class="index_title bold">Şubelerimizi Keşfet</h2>
-        <div class="branch_list d-flex justify-content-between">
+        <div class="branch_list d-flex justify-content-xl-between justify-content-center">
             <div class="branch">
                 <img src="assets/image/icons/building.png" width="49" height="44" alt="Şube Adı">
                 <h6 class="bold">Şube Adı</h6>
