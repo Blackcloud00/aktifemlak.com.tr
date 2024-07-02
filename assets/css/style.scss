@@ -51,6 +51,15 @@ a{
     letter-spacing: 0.15px;
     text-transform: uppercase;
 }
+.h4{
+    font-family: Archivo;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+}
 .passive{
     opacity: .3;
 }
@@ -884,12 +893,21 @@ footer{
 }
 
 @media only screen and (max-width: 1225px) {
+    .header_banner {
+
+        margin-top: 10px;
+    }
     .popular_category .content .text_area {
         padding: 30px 20px;
     }
     .index_title {
         font-size: 35px;
         text-align: center;
+    }
+    .openMenu{
+        header .menu_header .menu_ul {
+            right: 0;
+        }
     }
     header .menu_header{
         .menu_ul {
@@ -909,6 +927,7 @@ footer{
             align-items: center;
             justify-content: center;
             right: -270px;
+            transition: .5s all;
             .img_area{
                 display: block;
                 position: absolute;

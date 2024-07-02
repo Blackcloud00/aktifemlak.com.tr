@@ -148,6 +148,9 @@
   max-width: 380px;
   margin-right: auto;
 }
+.category_list .grd_button svg {
+  opacity: 0.4;
+}
 .category_list .cat_button {
   padding: 10px;
   border-radius: 10px;
@@ -193,6 +196,22 @@
 .category_list .aramayi_kaydet span {
   margin-right: 10px;
 }
+.category_list .button-group {
+  margin-bottom: 0 !important;
+  border-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.category_list .button-group .button {
+  border-radius: 10px;
+  background-color: #186089;
+  color: white;
+  transition: 0.5s all;
+  opacity: 1;
+}
+.category_list .button-group .button:hover {
+  background-color: white;
+  color: #186089;
+}
 .category_list .form-group {
   padding-bottom: 15px;
   border-bottom: 1px solid #D9D9D9;
@@ -200,6 +219,24 @@
   /* Style the custom radio button */
   /* Add the checked mark */
   /* Show the checked mark when the radio button is checked */
+}
+.category_list .form-group ::-webkit-scrollbar {
+  width: 4px;
+}
+.category_list .form-group ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.category_list .form-group ::-webkit-scrollbar-thumb {
+  background: #186089;
+  border-radius: 10px;
+}
+.category_list .form-group ::-webkit-scrollbar-thumb:hover {
+  background: #D9D9D9;
+}
+.category_list .form-group .check-group {
+  max-height: 220px;
+  overflow-y: auto;
 }
 .category_list .form-group .form-title {
   font-size: 24px;
@@ -305,6 +342,7 @@
 }
 .category_list .assive .item_features .feature {
   display: flex;
+  margin-right: 24px;
 }
 .category_list .assive .item_features .feature .img {
   margin-right: 12px;
@@ -365,6 +403,81 @@
   display: flex;
   align-items: center;
 }
+.category_list .filter_area_btn {
+  display: none;
+  cursor: pointer;
+}
+.category_list .pagination {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.category_list .pagination .pag_buttons .active {
+  color: #186089 !important;
+  border: 1px solid #186089 !important;
+}
+.category_list .pagination .pag_buttons .pag_button {
+  color: rgba(1, 30, 46, 0.3);
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: 1px solid var(--White-3, #D9D9D9);
+  background: var(--White, #FFF);
+  transition: 0.5s all;
+}
+.category_list .pagination .pag_buttons .pag_button:hover {
+  color: #186089;
+  border: 1px solid #186089;
+}
+.category_list .pagination .txt_info {
+  color: rgba(1, 30, 46, 0.3);
+}
+.category_list .pagination .txt_info span {
+  color: #186089;
+}
+.category_list .fav_arama {
+  max-width: 720px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #D9D9D9;
+}
+.category_list .fav_arama .fav_title {
+  color: #011E2E;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.category_list .fav_arama .arama_kaydet {
+  padding: 10px;
+  background-color: #186089;
+  border: 1px solid #186089;
+  color: white;
+  transition: 0.5s all;
+  border-radius: 10px;
+}
+.category_list .fav_arama .arama_kaydet svg {
+  margin-left: 10px;
+  transition: 0.5s all;
+}
+.category_list .fav_arama .arama_kaydet:hover {
+  opacity: 0.6;
+}
+.category_list .fav_arama .fav_text {
+  text-align: center;
+  max-width: 446px;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+}
+.category_list .fav_arama .fav_text span {
+  color: #011E2E;
+}
+.category_list .btns_cat {
+  display: flex;
+}
 .category_list .img_uruns {
   width: 100%;
   height: 220px;
@@ -383,6 +496,12 @@
 .category_list .item_type {
   background-color: #F4F4F4 !important;
   color: #011E2E !important;
+}
+.category_list .dnone_grid_for {
+  display: flex;
+}
+.category_list .dnone_for_grid {
+  display: none;
 }
 .category_list .cat {
   border-radius: 30px;
@@ -404,4 +523,147 @@
 }
 .category_list .btns_cat a .btn_area {
   margin: 0 4px;
+}
+
+.grid_button_active .category_list .img_uruns {
+  height: 100%;
+  background-position: center;
+}
+.grid_button_active .category_list .img_uruns .dnone_for_grid {
+  display: flex;
+}
+.grid_button_active .category_list .img_uruns .dnone_grid_for {
+  display: none;
+}
+.grid_button_active .category_list .assive .list_btns {
+  display: flex;
+  flex-direction: column;
+}
+.grid_button_active .category_list .assive .list_btns .cat {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+.grid_button_active .category_list .assive .item_features {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.grid_button_active .category_list .assive .item_features .feature {
+  display: flex;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.grid_button_active .category_list .assive .item_features .feature span:first-child {
+  margin-bottom: 6px;
+}
+.grid_button_active .category_list .assive .item_features .ftr_risk {
+  display: none;
+}
+.grid_button_active .category_list .assive .text {
+  height: 48px;
+  overflow: hidden;
+}
+.grid_button_active .category_list .grd_button svg {
+  opacity: 1 !important;
+}
+.grid_button_active .category_list .brd_button svg {
+  opacity: 0.4 !important;
+}
+@media only screen and (max-width: 1530px) {
+  .grid_button_active .category_list .filter_area_btn {
+    margin-top: 15px;
+    display: flex;
+  }
+  .grid_button_active .category_list #filter_button {
+    padding: 10px;
+    background-color: #186089;
+    border: 1px solid #186089;
+    color: white;
+    transition: 0.5s all;
+    border-radius: 10px;
+  }
+  .grid_button_active .category_list .item_input_area {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    overflow: auto;
+    height: 100%;
+    left: -100%;
+    transition: 0.5s all;
+  }
+  .grid_button_active .category_list .item_col-9_area {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1530px) {
+  .openFilterMenu .category_list .item_input_area {
+    left: 0;
+  }
+  .category_list .img_uruns {
+    padding: 15px 10px;
+  }
+  .category_list .btns_cat {
+    display: none;
+  }
+  .category_list .assive {
+    padding: 25px 15px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .openFilterMenu .category_list .item_input_area {
+    left: 0;
+  }
+  .category_list .filter_area_btn {
+    display: flex;
+  }
+  .category_list .filter_area_btn {
+    margin-top: 15px;
+  }
+  .category_list #filter_button {
+    padding: 10px;
+    background-color: #186089;
+    border: 1px solid #186089;
+    color: white;
+    transition: 0.5s all;
+    border-radius: 10px;
+  }
+  .category_list .item_input_area {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    overflow: auto;
+    height: 100%;
+    left: -100%;
+    transition: 0.5s all;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .category_list .img_uruns {
+    margin-bottom: 15px;
+  }
+  .category_list .assive .title_super {
+    margin-top: 20px;
+  }
+  .category_list .assive .item_features .feature {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .category_list .txt_info {
+    text-align: center;
+  }
+  .category_list .pagination .pag_buttons .pag_button {
+    padding: 8px 5px;
+    margin: 0 5px;
+    border-radius: 5px;
+  }
+  .category_list .special_buttons {
+    flex-wrap: wrap;
+  }
+  .category_list .special_buttons .cat_button, .category_list .special_buttons .aramayi_kaydet {
+    margin-bottom: 15px;
+  }
 }/*# sourceMappingURL=satilik_ilanlar.css.map */
