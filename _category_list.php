@@ -327,7 +327,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-8 for_col_8 d-flex flex-column justify-content-center">
+                                    <div class="col-lg-8 for_col_8 d-flex flex-column justify-content-center" style="position:relative;">
                                         <h4 class="title_super">Lorem ipsum dolor sit amet consectetur pellentesque.</h4>
                                             <p class="text">Lorem ipsum dolor sit amet consectetur. Lacus lobortis sed nisi tempor in a diam fames. Ullamcorper feugiat vestibulum eleifend sollicitudin aliquet risus. Augue vestibulum ac purus interdum dictumst ipsum nulla eu vestibulum. Tellus fringilla quam posuere sit enim facilisi eu volutpat. Proin dolor a auctor vel semper.</p>
                                             <div class="adress">
@@ -336,7 +336,7 @@
                                                 CO 06237-7979</span>
                                             </div>
                                             <div class="d-flex item_features">
-                                                <div class="d-flex">
+                                                <div class="d-flex feature_list">
                                                 <div class="feature">
                                                     <div class="img">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
@@ -397,6 +397,7 @@
                                                     <span>12.200.000 ₺</span>
                                                 </div>
                                             </div>
+                                            <a href="satilik_ilan_detay.php" title="" style="position:absolute; width:100%; height:100%; right:0; left:0;"></a>
                                     </div>
                                 </div>
                             </div>

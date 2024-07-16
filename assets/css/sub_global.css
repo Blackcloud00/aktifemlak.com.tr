@@ -1,0 +1,205 @@
+.header_banner {
+  max-width: 1640px;
+  width: 100%;
+  height: 300px;
+  border-radius: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+}
+.header_banner::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #186089;
+  opacity: 0.8;
+  border-radius: 60px;
+  z-index: 10;
+}
+.header_banner .text_area {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  z-index: 20;
+}
+.header_banner h1.h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.header_banner .share {
+  display: flex;
+  padding-bottom: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.header_banner .share span {
+  margin-right: 20px;
+}
+.header_banner .share li {
+  list-style-type: none;
+  margin-right: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.header_banner .share li:last-child {
+  margin-right: 0;
+}
+.header_banner .share li a {
+  transition: 0.5s all;
+}
+.header_banner .share li a:hover {
+  opacity: 0.6;
+}
+.header_banner .breadcumb_ul {
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 24px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  color: white;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.header_banner .breadcumb_ul .breadcumb_li {
+  width: -moz-fit-content;
+  width: fit-content;
+  list-style-type: none;
+  margin-right: 18px;
+  position: relative;
+}
+.header_banner .breadcumb_ul .breadcumb_li:after {
+  content: ">";
+  margin-left: 3px;
+  position: absolute;
+}
+.header_banner .breadcumb_ul .breadcumb_li:last-child {
+  margin-right: 0;
+}
+.header_banner .breadcumb_ul .breadcumb_li:last-child:after {
+  display: none;
+}
+.header_banner .breadcumb_ul .breadcumb_li a {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  transition: 0.5s all;
+}
+.header_banner .breadcumb_ul .breadcumb_li a:hover {
+  opacity: 0.6;
+}
+
+.list_area_item {
+  margin-bottom: 150px;
+}
+.list_area_item .clas_col {
+  margin-bottom: 30px;
+}
+.list_area_item .clas_col .item {
+  width: 100%;
+  height: auto;
+  position: relative;
+  transition: 0.5s all;
+}
+.list_area_item .clas_col .item:hover {
+  opacity: 0.7;
+}
+.list_area_item .clas_col .item .hakkimizda_item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.list_area_item .clas_col .item .title {
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 15;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+}
+.list_area_item .clas_col .item img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  z-index: 10;
+}
+
+.detail_area_item {
+  margin-bottom: 150px;
+}
+.detail_area_item .container {
+  max-width: 1362px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.detail_area_item .default_img {
+  width: 100%;
+  height: auto;
+  border-radius: 88px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin-bottom: 30px;
+}
+.detail_area_item h2 {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  color: #011E2E;
+  margin-bottom: 25px;
+}
+.detail_area_item p {
+  color: #829499;
+  font-size: 20px;
+}/*# sourceMappingURL=sub_global.css.map */

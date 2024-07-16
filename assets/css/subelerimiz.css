@@ -1,0 +1,67 @@
+.subeler_list_area_item {
+  max-width: 1361px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #829499;
+}
+.subeler_list_area_item .row {
+  margin-bottom: 30px;
+}
+.subeler_list_area_item .h4-sml {
+  color: #011E2E;
+}
+.subeler_list_area_item .links {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.subeler_list_area_item a {
+  color: #829499;
+  display: flex;
+  align-items: center;
+  transition: 0.5s all;
+}
+.subeler_list_area_item a:hover {
+  opacity: 0.6;
+}
+.subeler_list_area_item a svg {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.subeler_list_area_item a span {
+  max-width: 240px;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.subeler_list_area_item .social {
+  margin-left: 20px;
+}
+.subeler_list_area_item .social a svg {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.subeler_list_area_item .img_area {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.subeler_list_area_item .img_area img {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  width: 100%;
+  height: auto;
+  border-radius: 88px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media only screen and (max-width: 1530px) {
+  .subeler_list_area_item .links {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .subeler_list_area_item .h4-sml {
+    margin-top: 25px;
+  }
+}/*# sourceMappingURL=subelerimiz.css.map */

@@ -44,17 +44,7 @@
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
                 <div class="row">
-                    <div class="col-md-3 mb-md-0 mb-4">
-                        <select name="all_city" id="all_city">
-                            <option value="Tüm Şehirler">Tüm Şehirler</option>
-                            <option value="İstanbul">İstanbul</option>
-                            <option value="Ankara">Ankara</option>
-                            <option value="Balıkesir">Balıkesir</option>
-                            <option value="Trabzon">Trabzon</option>
-                            <option value="Rize">Rize</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6  px-md-0 mb-md-0 mb-4">
+                    <div class="col-md-9  px-md-0 mb-md-0 mb-4">
                         <input type="text" placeholder="Anahtar kelimeler (ör, ofis, satılık villa, arazi)" class="input_area" name="search">
                     </div>
                     <div class="col-md-3">
@@ -64,17 +54,7 @@
             </div>
             <div class="tab-pane fade" id="nav-satilik" role="tabpanel" aria-labelledby="nav-satilik-tab">
                 <div class="row">
-                        <div class="col-md-3 mb-md-0 mb-4">
-                            <select name="all_city" id="all_city">
-                                <option value="Tüm Şehirler">Tüm Şehirler</option>
-                                <option value="İstanbul">İstanbul</option>
-                                <option value="Ankara">Ankara</option>
-                                <option value="Balıkesir">Balıkesir</option>
-                                <option value="Trabzon">Trabzon</option>
-                                <option value="Rize">Rize</option>
-                            </select>
-                        </div>
-                        <div class="col-md-6  px-md-0 mb-md-0 mb-4">
+                        <div class="col-md-9  px-md-0 mb-md-0 mb-4">
                             <input type="text" placeholder="Anahtar kelimeler (ör, ofis, satılık villa, arazi)" class="input_area" name="search">
                         </div>
                         <div class="col-md-3">
@@ -84,17 +64,7 @@
             </div>
             <div class="tab-pane fade" id="nav-kiralik" role="tabpanel" aria-labelledby="nav-kiralik-tab">
             <div class="row">
-                    <div class="col-md-3 mb-md-0 mb-4">
-                        <select name="all_city" id="all_city">
-                            <option value="Tüm Şehirler">Tüm Şehirler</option>
-                            <option value="İstanbul">İstanbul</option>
-                            <option value="Ankara">Ankara</option>
-                            <option value="Balıkesir">Balıkesir</option>
-                            <option value="Trabzon">Trabzon</option>
-                            <option value="Rize">Rize</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6  px-md-0 mb-md-0 mb-4">
+                    <div class="col-md-9  px-md-0 mb-md-0 mb-4">
                         <input type="text" placeholder="Anahtar kelimeler (ör, ofis, satılık villa, arazi)" class="input_area" name="search">
                     </div>
                     <div class="col-md-3">

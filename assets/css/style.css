@@ -56,6 +56,15 @@ a {
   text-transform: uppercase;
 }
 
+.h4-sml {
+  font-family: Archivo;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.15px;
+}
+
 .passive {
   opacity: 0.3;
 }
@@ -111,6 +120,36 @@ body {
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
+}
+
+.pagination {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pagination .pag_buttons .active {
+  color: #186089 !important;
+  border: 1px solid #186089 !important;
+}
+.pagination .pag_buttons .pag_button {
+  color: rgba(1, 30, 46, 0.3);
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: 1px solid var(--White-3, #D9D9D9);
+  background: var(--White, #FFF);
+  transition: 0.5s all;
+}
+.pagination .pag_buttons .pag_button:hover {
+  color: #186089;
+  border: 1px solid #186089;
+}
+.pagination .txt_info {
+  color: rgba(1, 30, 46, 0.3);
+}
+.pagination .txt_info span {
+  color: #186089;
 }
 
 header {
@@ -838,7 +877,36 @@ footer .w-full_bg .special_image_for_footer {
   margin-top: 70px;
 }
 
+.breadcumb-area {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-top: 150px;
+  background: #186089;
+}
+.breadcumb-area .breadcumb-item {
+  margin-bottom: 0;
+  display: flex;
+}
+.breadcumb-area .breadcumb-item .breadcumb-item-li {
+  list-style-type: none;
+}
+.breadcumb-area .breadcumb-item .breadcumb-item-li:after {
+  content: ">";
+  position: relative;
+  color: white;
+}
+.breadcumb-area .breadcumb-item .breadcumb-item-li:last-child:after {
+  display: none;
+}
+.breadcumb-area .breadcumb-item .breadcumb-item-li a {
+  font-size: 16px;
+  color: #fff;
+}
+
 @media only screen and (max-width: 1530px) {
+  .h4-sml {
+    font-size: 30px;
+  }
   .slider .main_slider .swiper-slide img {
     min-height: 630px;
     -o-object-fit: cover;
@@ -860,6 +928,13 @@ footer .w-full_bg .special_image_for_footer {
     left: 65px;
     right: 0;
     bottom: 0;
+  }
+  a {
+    font-size: 16px;
+  }
+  .popular_category .content .text_area {
+    width: 100%;
+    padding: 15px;
   }
 }
 @media only screen and (max-width: 1225px) {

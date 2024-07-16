@@ -412,36 +412,7 @@ $color_red : #A11105;
         display: none;
         cursor: pointer;
     }
-    .pagination{
-        width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-        .pag_buttons{
-            .active{
-                color: $color_secondary !important;
-                border: 1px solid $color_secondary !important;
-            }
-            .pag_button{
-                color: rgba(1, 30, 46, 0.30);
-                padding: 10px 15px;
-                margin: 0 5px;
-                border-radius: 10px;
-                border: 1px solid var(--White-3, #D9D9D9);
-                background: var(--White, #FFF);
-                transition: .5s all;
-                &:hover{
-                    color: $color_secondary;
-                    border: 1px solid $color_secondary;
-                }
-            }
-        }
-        .txt_info{
-            color: rgba(1, 30, 46, 0.30);
-            span{
-                color: $color_secondary;
-            }
-        }
-    }
+
     .fav_arama{
         max-width: 720px;
         margin-right: auto;
@@ -708,6 +679,35 @@ $color_red : #A11105;
             flex-wrap: wrap;
             .cat_button, .aramayi_kaydet{
                 margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1700px){
+    .category_list .assive .item_features .feature {
+        display: flex;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 1530px){
+    .category_list .assive {
+        .item_features{
+            .feature_list {
+                overflow-x: hidden;
+                max-width: 313px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .category_list .assive {
+        .item_features{
+            .feature_list{
+                display: none !important;
             }
         }
     }

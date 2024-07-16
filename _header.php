@@ -30,15 +30,15 @@
                     <a href="#" title="İşyeri">İşyeri</a>
                 </li>
                 <li class="menu_li">
-                    <a href="#" title="Kurumsal">Kurumsal</a>
+                    <a href="kurumsal.php" title="Kurumsal">Kurumsal</a>
                 </li>
                 <li class="menu_li">
-                    <a href="#" title="İletişim">İletişim</a>
+                    <a href="iletisim.php" title="İletişim">İletişim</a>
                 </li>
             </ul>
             <ul class="menu_buttons">
                 <li>
-                    <a href="#" title="Giriş">Giriş</a>
+                    <a href="giris-yap.php" title="Giriş">Giriş</a>
                 </li>
                 <li>
                     <a href="#" title="Kayıt Ol" class="active_kayit">Kayıt Ol</a>

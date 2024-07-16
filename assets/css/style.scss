@@ -60,6 +60,14 @@ a{
     letter-spacing: 0.15px;
     text-transform: uppercase;
 }
+.h4-sml{
+    font-family: Archivo;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.15px;
+}
 .passive{
     opacity: .3;
 }
@@ -114,6 +122,38 @@ body{
     width: fit-content;
     margin-right: auto;
     margin-left: auto;
+}
+
+
+.pagination{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    .pag_buttons{
+        .active{
+            color: $color_secondary !important;
+            border: 1px solid $color_secondary !important;
+        }
+        .pag_button{
+            color: rgba(1, 30, 46, 0.30);
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 10px;
+            border: 1px solid var(--White-3, #D9D9D9);
+            background: var(--White, #FFF);
+            transition: .5s all;
+            &:hover{
+                color: $color_secondary;
+                border: 1px solid $color_secondary;
+            }
+        }
+    }
+    .txt_info{
+        color: rgba(1, 30, 46, 0.30);
+        span{
+            color: $color_secondary;
+        }
+    }
 }
 
 header{
@@ -865,7 +905,38 @@ footer{
     }
 }
 
+.breadcumb-area{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 150px;
+    background: $color_secondary;
+    .breadcumb-item{
+        margin-bottom: 0;
+        display: flex;
+        .breadcumb-item-li{
+            list-style-type: none;
+            &:after{
+                content: '>';
+                position: relative;
+                color: white;
+            }
+            &:last-child{
+                &:after{
+                    display: none;
+                }
+            }
+            a{
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1530px){
+    .h4-sml {
+        font-size: 30px;
+    }
     .slider .main_slider .swiper-slide img {
         min-height: 630px;
         object-fit: cover;
@@ -890,6 +961,13 @@ footer{
         right: 0;
         bottom: 0;
     }
+    a {
+        font-size: 16px;
+    }
+    .popular_category .content .text_area {
+        width: 100%;
+        padding: 15px;
+    }
 }
 
 @media only screen and (max-width: 1225px) {
@@ -897,6 +975,7 @@ footer{
 
         margin-top: 10px;
     }
+
     .popular_category .content .text_area {
         padding: 30px 20px;
     }

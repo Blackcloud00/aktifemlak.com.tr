@@ -1,0 +1,20 @@
+.blog_area .blog_row {
+  margin-top: 0px !important;
+}
+
+.header_banner::after {
+  opacity: 0;
+}
+
+.text_area p {
+  color: #829499;
+}
+
+.resim_content .img_item {
+  width: 100%;
+  height: auto;
+  border-radius: 88px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 388px;
+}/*# sourceMappingURL=blog-detay.css.map */

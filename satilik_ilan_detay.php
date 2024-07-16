@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr" class="grid_button_active">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/lib/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/lib/aos.css">
+    <link rel="stylesheet" href="assets/css/lib/fancybox.css">
     <link rel="stylesheet" href="assets/fonts/stylesheet.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/satilik_ilanlar.css">
@@ -35,5 +36,6 @@
     <script type="text/javascript" src="assets/js/lib/aos.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/ilan_detay.js"></script>
 </body>
 </html>

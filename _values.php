@@ -1,4 +1,4 @@
-<section class="values normal">
+<section class="values normal d-xl-block d-none">
     <div class="container">
         <div class="row">
             <div class="col-xl-4 col-md-6 item">
