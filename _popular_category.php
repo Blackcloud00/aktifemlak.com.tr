@@ -3,35 +3,71 @@
     <div class="container">
         <h2 class="index_title bold">Öne Çıkan Kategori</h2>
         <div class="row kategori">
-            <div class="col-lg-3 col-sm-6 item_kat">
-                <div class="content" style="background-image: url('assets/image/kategori/istanbul.jpg');">
-                    <div class="text_area">
-                        <h2 class="index_title">İstanbul</h2>
-                        <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+            <div class="swiper swiper_item_slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide item_kat">
+                        <div class="content" style="background-image: url('assets/image/kategori/istanbul.jpg');">
+                                <div class="text_area">
+                                    <h2 class="index_title">İstanbul</h2>
+                                    <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                                </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 item_kat">
-                <div class="content" style="background-image: url('assets/image/kategori/izmir.jpg');">
-                    <div class="text_area">
-                        <h2 class="index_title">İzmir</h2>
-                        <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                    <div class="swiper-slide item_kat">
+                        <div class="content" style="background-image: url('assets/image/kategori/izmir.jpg');">
+                            <div class="text_area">
+                                <h2 class="index_title">İzmir</h2>
+                                <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 item_kat">
-                <div class="content" style="background-image: url('assets/image/kategori/trabzon.jpg');">
-                    <div class="text_area">
-                        <h2 class="index_title">Trabzon</h2>
-                        <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                    <div class="swiper-slide item_kat">
+                        <div class="content" style="background-image: url('assets/image/kategori/trabzon.jpg');">
+                            <div class="text_area">
+                                <h2 class="index_title">Trabzon</h2>
+                                <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 item_kat">
-                <div class="content" style="background-image: url('assets/image/kategori/balikesir.jpg');">
-                    <div class="text_area">
-                        <h2 class="index_title">Balıkesir</h2>
-                        <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                    <div class="swiper-slide item_kat">
+                        <div class="content" style="background-image: url('assets/image/kategori/balikesir.jpg');">
+                            <div class="text_area">
+                                <h2 class="index_title">Balıkesir</h2>
+                                <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item_kat">
+                        <div class="content" style="background-image: url('assets/image/kategori/istanbul.jpg');">
+                                <div class="text_area">
+                                    <h2 class="index_title">İstanbul</h2>
+                                    <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item_kat">
+                        <div class="content" style="background-image: url('assets/image/kategori/izmir.jpg');">
+                            <div class="text_area">
+                                <h2 class="index_title">İzmir</h2>
+                                <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item_kat">
+                        <div class="content" style="background-image: url('assets/image/kategori/trabzon.jpg');">
+                            <div class="text_area">
+                                <h2 class="index_title">Trabzon</h2>
+                                <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item_kat">
+                        <div class="content" style="background-image: url('assets/image/kategori/balikesir.jpg');">
+                            <div class="text_area">
+                                <h2 class="index_title">Balıkesir</h2>
+                                <span class="s2">Lorem ipsum dolor sit amet consectetur. Sed volutpat nunc mor.</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

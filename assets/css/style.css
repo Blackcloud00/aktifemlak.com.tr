@@ -195,6 +195,29 @@ header .menu_header .menu_buttons {
 header .menu_header .menu_buttons .btn_menu_open {
   display: none;
 }
+header .menu_header .menu_buttons .active_li .hover_open {
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 0px;
+  padding-top: 20px;
+  display: none;
+  padding: 15px !important;
+  background-color: #ffffff;
+  border-radius: 15px;
+  z-index: 50;
+}
+header .menu_header .menu_buttons .active_li .hover_open li {
+  margin-left: 0;
+  text-align: center;
+}
+header .menu_header .menu_buttons .active_li .hover_open li a {
+  display: block;
+  padding: 4px 10px;
+  color: #829499;
+}
+header .menu_header .menu_buttons .active_li:hover .hover_open {
+  display: block !important;
+}
 header .menu_header .menu_buttons li {
   list-style-type: none;
   margin-left: 12px;
@@ -207,6 +230,7 @@ header .menu_header .menu_buttons li .active_kayit {
   border: 1px solid #186089;
   background-color: #186089;
   color: white;
+  position: relative;
 }
 
 .slider {
@@ -903,6 +927,144 @@ footer .w-full_bg .special_image_for_footer {
   color: #fff;
 }
 
+.subelerimiz .subelerimiz_area {
+  background-image: url("../image/subeler/arsa_shadow_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  margin-top: 150px;
+  min-height: 1165px;
+}
+.subelerimiz .subelerimiz_area .img_box {
+  background-color: #011E2E;
+  padding: 34px 113px;
+  border-radius: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 36px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -130px;
+}
+.subelerimiz .subelerimiz_area .box-2 {
+  height: 438px;
+}
+.subelerimiz .subelerimiz_area .box-4 {
+  height: 524px;
+}
+.subelerimiz .subelerimiz_area .box-3 {
+  height: 246px;
+}
+.subelerimiz .subelerimiz_area .box-1 {
+  padding: 30px;
+  border-radius: 30px;
+  border: 1px solid rgba(249, 249, 249, 0.5019607843);
+  background: rgb(1, 30, 46);
+  background: linear-gradient(90deg, rgba(1, 30, 46, 0.7567401961) 23%, rgba(3, 97, 148, 0.168504902) 78%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#011e2e",endColorstr="#036194",GradientType=1);
+}
+.subelerimiz .subelerimiz_area .box-1 h3 {
+  font-size: 24px !important;
+}
+.subelerimiz .subelerimiz_area .box-1 .text {
+  font-size: 18px;
+  line-height: 27px;
+}
+.subelerimiz .subelerimiz_area .btn_incele {
+  padding: 10px 20px;
+  background: rgb(244, 244, 244);
+  background: linear-gradient(90deg, rgba(244, 244, 244, 0.5662640056) 32%, rgb(244, 244, 244) 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4f4f4",endColorstr="#f4f4f4",GradientType=1);
+  color: #000000 !important;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+.subelerimiz .subelerimiz_area .btn_incele .incele_span {
+  margin-right: 10px;
+}
+.subelerimiz .subelerimiz_area .box-2, .subelerimiz .subelerimiz_area .box-4, .subelerimiz .subelerimiz_area .box-3 {
+  border: 1px solid rgba(249, 249, 249, 0.5019607843);
+  padding: 15px;
+  border-radius: 30px;
+  min-height: 330px;
+  position: relative;
+}
+.subelerimiz .subelerimiz_area .box-2:before, .subelerimiz .subelerimiz_area .box-4:before, .subelerimiz .subelerimiz_area .box-3:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: #000000;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 5;
+}
+.subelerimiz .subelerimiz_area .box-2 h2, .subelerimiz .subelerimiz_area .box-4 h2, .subelerimiz .subelerimiz_area .box-3 h2 {
+  position: relative;
+  z-index: 10;
+  font-size: 35px;
+  font-weight: 400;
+}
+.subelerimiz .subelerimiz_area .box-2 a, .subelerimiz .subelerimiz_area .box-4 a, .subelerimiz .subelerimiz_area .box-3 a {
+  position: relative;
+  z-index: 10;
+  color: white;
+  transition: 0.5s all;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.subelerimiz .subelerimiz_area .box-2 a:hover, .subelerimiz .subelerimiz_area .box-4 a:hover, .subelerimiz .subelerimiz_area .box-3 a:hover {
+  opacity: 0.6;
+}
+.subelerimiz .subelerimiz_area .box-4 {
+  min-height: 399px !important;
+}
+.subelerimiz .subelerimiz_area .box-3 {
+  min-height: 190px !important;
+}
+.subelerimiz footer {
+  margin-top: 20px;
+}
+.subelerimiz header {
+  position: relative;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.subelerimiz .values {
+  display: none !important;
+}
+.subelerimiz .slider {
+  margin-top: -120px;
+  max-width: 100%;
+  width: 100%;
+}
+.subelerimiz .slider .tum_sehirler {
+  top: auto;
+  margin-bottom: -40px;
+}
+.subelerimiz .slider .main_slider .swiper-slide img {
+  height: 650px;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.subelerimiz .slider .slide_buttons {
+  display: none;
+}
+.subelerimiz .slider .main_slider .swiper-slide .text_area {
+  top: 200px;
+}
+.subelerimiz .slider .main_slider .swiper-slide img {
+  border-radius: 0;
+}
+
 @media only screen and (max-width: 1530px) {
   .h4-sml {
     font-size: 30px;
@@ -1073,6 +1235,10 @@ footer .w-full_bg .special_image_for_footer {
   }
   .values .s2 {
     font-size: 18px;
+  }
+  header .menu_header .menu_buttons .active_li .hover_open {
+    width: 190px;
+    right: 0;
   }
 }
 @media only screen and (max-width: 600px) {

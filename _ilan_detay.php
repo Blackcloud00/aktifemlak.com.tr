@@ -69,6 +69,15 @@
                             <div class="swiper-slide">
                                 <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
                             </div>
+                            <div class="swiper-slide">
+                                <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
+                            </div>
                     </div>
                     <div class="slide_buttons">
                             <div class="swiper-button-next">

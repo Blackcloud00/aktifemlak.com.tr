@@ -9,7 +9,30 @@ var swiper = new Swiper(".main_slider", {
         prevEl: ".swiper-button-prev",
     },
   });
-
+  var swiper = new Swiper(".swiper_item_slider", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    autoplay:true,
+    loop:true,
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+      },
+      500: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      780: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1530: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
+    },
+  });
   var swiper = new Swiper(".one_cikanlar", {
     slidesPerView: 4,
     spaceBetween: 30,

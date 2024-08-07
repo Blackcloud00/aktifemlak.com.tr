@@ -108,6 +108,7 @@
                                     <span>Telefon:</span>
                                     <a href="#" title="adres">+90 532 359 44 10</a>
                                 </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.435920997003!2d26.949219776476237!3d39.57232480659872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b0b84569041815%3A0xfa24f1c75a31e3df!2sAlt%C4%B1nkum%2C%20Akdeniz%20Cd.%20No%3A5%20D%3Aa%2C%2010305%20Edremit%2FBal%C4%B1kesir!5e0!3m2!1str!2str!4v1721217004365!5m2!1str!2str" width="100%" height="200" style="border:0; margin-top:25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
                                 

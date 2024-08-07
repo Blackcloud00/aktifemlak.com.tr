@@ -3,7 +3,7 @@ var swiper = new Swiper(".ilan_slider", {
     effect: "fade",
     pagination: {
       el: ".swiper-pagination",
-      clickable: true,
+      dynamicBullets: true,
     },
     navigation: {
         nextEl: ".swiper-button-next",

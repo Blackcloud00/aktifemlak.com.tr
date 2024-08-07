@@ -1,3 +1,17 @@
+.subelerimiz .slider .main_slider .swiper-slide img {
+  height: 700px;
+  position: relative;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+footer {
+  background-color: transparent;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../image/subeler/subeler-footer.png");
+}
+
 .subeler_list_area_item {
   max-width: 1361px;
   margin-right: auto;
@@ -58,6 +72,27 @@
   .subeler_list_area_item .links {
     display: flex;
     flex-direction: column;
+  }
+  footer {
+    padding-top: 170px !important;
+    padding-bottom: 30px !important;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .subelerimiz .subelerimiz_area .img_box {
+    padding: 34px 20px;
+    margin-top: -110px;
+  }
+  .subelerimiz .subelerimiz_area .img_box img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .subelerimiz .subelerimiz_area {
+    margin-top: 170px;
   }
 }
 @media only screen and (max-width: 768px) {

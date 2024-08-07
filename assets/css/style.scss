@@ -194,6 +194,33 @@ header{
             .btn_menu_open{
                 display: none;
             }
+            .active_li{
+                .hover_open{
+                    position: absolute;
+                    margin-left: -10px;
+                    margin-top: 0px;
+                    padding-top: 20px;
+                    display: none;
+                    padding: 15px !important;
+                    background-color: #ffffff;
+                    border-radius: 15px;
+                    z-index: 50;
+                    li{
+                        margin-left: 0;
+                        text-align: center;
+                        a{
+                            display: block;
+                            padding: 4px 10px;
+                            color: $color_forth;
+                        }
+                    }
+                }
+                &:hover{
+                    .hover_open{
+                        display: block !important;
+                    }
+                }
+            }
             li{
                 list-style-type: none;
                 margin-left: 12px;
@@ -205,6 +232,7 @@ header{
                     border: 1px solid $color_secondary;
                     background-color: $color_secondary;
                     color: white;
+                    position: relative;
                 }
             }
         }
@@ -933,6 +961,153 @@ footer{
     }
 }
 
+
+
+.subelerimiz{
+
+    .subelerimiz_area{
+        background-image: url("../image/subeler/arsa_shadow_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 100px;
+        margin-top: 150px;
+        min-height: 1165px;
+        .img_box{
+            background-color: #011E2E;
+            padding: 34px 113px;
+            border-radius: 30px;
+            width: fit-content;
+            margin-bottom: 36px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: -130px;
+        }
+        .box-2{
+            height: 438px;
+        }
+        .box-4{
+            height: 524px;
+        }
+        .box-3{
+            height: 246px;
+        }
+        .box-1{
+            padding: 30px;
+            border-radius: 30px;
+            border: 1px solid #f9f9f980;
+            background: rgb(1,30,46);
+            background: -moz-linear-gradient(90deg, rgba(1,30,46,0.7567401960784313) 23%, rgba(3,97,148,0.16850490196078427) 78%);
+            background: -webkit-linear-gradient(90deg, rgba(1,30,46,0.7567401960784313) 23%, rgba(3,97,148,0.16850490196078427) 78%);
+            background: linear-gradient(90deg, rgba(1,30,46,0.7567401960784313) 23%, rgba(3,97,148,0.16850490196078427) 78%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#011e2e",endColorstr="#036194",GradientType=1);        
+            h3{
+                font-size: 24px !important;
+            }
+            .text{
+                font-size: 18px;
+                line-height: 27px;
+            }
+        }
+        .btn_incele{
+            padding: 10px 20px;
+            background: rgb(244,244,244);
+            background: -moz-linear-gradient(90deg, rgba(244,244,244,0.5662640056022409) 32%, rgba(244,244,244,1) 85%);
+            background: -webkit-linear-gradient(90deg, rgba(244,244,244,0.5662640056022409) 32%, rgba(244,244,244,1) 85%);
+            background: linear-gradient(90deg, rgba(244,244,244,0.5662640056022409) 32%, rgba(244,244,244,1) 85%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4f4f4",endColorstr="#f4f4f4",GradientType=1);            color: #000000 !important;
+            border-radius: 15px;
+            border: 1px solid white;
+            .incele_span{
+                margin-right: 10px;
+            }
+        }
+        .box-2, .box-4, .box-3{
+            border: 1px solid #f9f9f980;
+            padding: 15px;
+            border-radius: 30px;
+            min-height: 330px;
+            position: relative;
+            &:before{
+                content: '';
+                width: 100%;
+                height: 100%;
+                border-radius: 30px;
+                background-color: #000000;
+                opacity: .3;
+                top: 0;
+                left: 0;
+                position: absolute;
+                z-index: 5;
+            }
+             h2{
+                position: relative;
+                z-index: 10;
+                font-size: 35px;
+                font-weight: 400;
+            }
+            a{
+                position: relative;
+                z-index: 10;
+                color: white;
+                transition: .5s all;
+                position: absolute;
+                right: 15px;
+                bottom: 15px;
+                &:hover{
+                    opacity: .6;
+                }
+            }
+        }
+
+        .box-4{
+            min-height: 399px !important;
+        }
+        .box-3{
+            min-height: 190px !important;
+        }
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+    header {
+        position: relative;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .values {
+        display: none !important;
+    }
+    .slider {
+        margin-top: -120px;
+        max-width: 100%;
+        width: 100%;
+        .tum_sehirler {
+            top: auto;
+            margin-bottom: -40px;
+        }
+         .main_slider .swiper-slide img {
+            height: 650px;
+            position: relative;
+            object-fit: cover;
+        }
+        .slide_buttons{
+            display: none;
+        }
+        .main_slider .swiper-slide .text_area {
+            top: 200px;
+        }
+         .main_slider .swiper-slide img {
+            border-radius: 0;
+        }
+    }
+}
+
+
 @media only screen and (max-width: 1530px){
     .h4-sml {
         font-size: 30px;
@@ -1025,6 +1200,7 @@ footer{
         .menu_buttons{
             position: relative;
             right: 50px;
+
         }
         .menu_open_button{
             position: absolute;
@@ -1124,6 +1300,10 @@ footer{
     }
     .values .s2 {
         font-size: 18px;
+    }
+    header .menu_header .menu_buttons .active_li .hover_open {
+        width: 190px;
+        right: 0;
     }
 } 
 

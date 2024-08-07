@@ -41,7 +41,7 @@
                     <a href="giris-yap.php" title="Giriş">Giriş</a>
                 </li>
                 <li>
-                    <a href="#" title="Kayıt Ol" class="active_kayit">Kayıt Ol</a>
+                    <a href="yeni-uyelik.php" title="Kayıt Ol" class="active_kayit">Kayıt Ol</a>
                 </li>
             </ul>
             <a href="#" class="menu_open_button openMenu">

@@ -10,7 +10,7 @@
                 <button class="nav-link" id="pills-arsa-tab" data-bs-toggle="pill" data-bs-target="#pills-arsa" type="button" role="tab" aria-controls="pills-arsa" aria-selected="false">Arsa</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-villa-tab" data-bs-toggle="pill" data-bs-target="#pills-villa" type="button" role="tab" aria-controls="pills-villa" aria-selected="false">Villa</button>
+                <button class="nav-link" id="pills-villa-tab" data-bs-toggle="pill" data-bs-target="#pills-villa" type="button" role="tab" aria-controls="pills-villa" aria-selected="false">Müstakil Ev</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-isyeri-tab" data-bs-toggle="pill" data-bs-target="#pills-isyeri" type="button" role="tab" aria-controls="pills-isyeri" aria-selected="false">İşyeri</button>
