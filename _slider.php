@@ -44,7 +44,7 @@
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
                 <div class="row">
-                    <div class="col-md-9  px-md-0 mb-md-0 mb-4">
+                    <div class="col-md-9  px-md-0 mb-md-0 mb-2">
                         <input type="text" placeholder="Anahtar kelimeler (ör, ofis, satılık villa, arazi)" class="input_area" name="search">
                     </div>
                     <div class="col-md-3">
@@ -54,7 +54,7 @@
             </div>
             <div class="tab-pane fade" id="nav-satilik" role="tabpanel" aria-labelledby="nav-satilik-tab">
                 <div class="row">
-                        <div class="col-md-9  px-md-0 mb-md-0 mb-4">
+                        <div class="col-md-9  px-md-0 mb-md-0 mb-2">
                             <input type="text" placeholder="Anahtar kelimeler (ör, ofis, satılık villa, arazi)" class="input_area" name="search">
                         </div>
                         <div class="col-md-3">
@@ -64,7 +64,7 @@
             </div>
             <div class="tab-pane fade" id="nav-kiralik" role="tabpanel" aria-labelledby="nav-kiralik-tab">
             <div class="row">
-                    <div class="col-md-9  px-md-0 mb-md-0 mb-4">
+                    <div class="col-md-9  px-md-0 mb-md-0 mb-2">
                         <input type="text" placeholder="Anahtar kelimeler (ör, ofis, satılık villa, arazi)" class="input_area" name="search">
                     </div>
                     <div class="col-md-3">

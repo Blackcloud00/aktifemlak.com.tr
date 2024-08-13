@@ -33,6 +33,14 @@ var swiper = new Swiper(".main_slider", {
       },
     },
   });
+  var swiper = new Swiper(".branch_slider", {
+    effect: "fade",
+    slidesPerView: 1,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar",
+    },
+  });
   var swiper = new Swiper(".one_cikanlar", {
     slidesPerView: 4,
     spaceBetween: 30,
@@ -66,11 +74,31 @@ var swiper = new Swiper(".main_slider", {
     slidesPerView: 'auto',
     spaceBetween: 15,
     centeredSlides: true,
+    loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+  },
+  });
 
+  var swiper = new Swiper(".slider_customer", {
+    effect: "fade",
+    autoplay: true,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+  },
   });
 
   $(document).ready(function() {

@@ -644,6 +644,86 @@ header{
     .index_title{
         margin-bottom: 62px;
     }
+    .slider_customer{
+        height: 288px;
+        padding-left: 15px;
+        padding-right: 15px;
+        .swiper-button-prev{
+            position: absolute;
+            right: 0;
+            left: auto;
+            background-color: #FFFFFF;
+            border: 1px solid #D9D9D9;
+        }
+        .swiper-button-next{
+            position: absolute;
+            left: 0;
+            background-color: #FFFFFF;
+            border: 1px solid #D9D9D9;
+        }
+        .swiper-button-next, .swiper-button-prev{
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                position: absolute;
+                margin: auto;
+            }
+            &:after{
+                opacity: 0;
+            }
+        }
+        .swiper-wrapper{
+            .swiper-slide{
+                border-radius: 32px;
+                width: 100%;
+                background-color: $color_red;
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .stars{
+                    margin-bottom: 12px;
+          
+                    img{
+                        max-width: 18px;
+                        width: 100%;
+                        height: auto;
+                        margin-left: 3px;
+                        margin-right: 3px;
+                    }
+                }
+                .profile_photo{
+                    margin-top: 15px;
+                    h4{
+                        font-size: 11px;
+                    }
+                    .passive{
+                        font-size: 9px;
+                    }
+                    img{
+                        width: 65px;
+                        height: 65px;
+                        border-radius: 50px;
+                        object-fit: cover;
+                    }
+                }
+                .text{
+                    color: white;
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    p.h5{
+                        font-size: 12px !important;
+                    }
+                }
+            }
+        }
+    }
     .customer_comments_slider{
         position: relative;
         max-width: 1404px;
@@ -781,11 +861,65 @@ header{
     background-color: $color_third;
     padding-top: 100px;
     padding-bottom: 203px;
-
+    .swiper-wrapper{
+        display: flex;
+        justify-content: center;
+        width: 321px;
+    }
     .branch_list{
         margin-top: 60px;
         flex-wrap: wrap;
+        .branch_slider{
+            padding-bottom: 50px;
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            .swiper-slide{
+                margin-right: auto;
+                margin-left: auto;
+                padding-bottom: 40px;
+                background-color: #c8d6df !important;
+                h6, span{
+                    color: #011E2E !important;
+                    background-color: #c8d6df !important;
+                }
+            }
+        }
+        .swiper-pagination {
+            max-width: 212px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 5px;
+        }
+        .swiper-pagination-progressbar-fill {
+            background: $color_secondary;
+            position: absolute;
+            left: 0;
+            top: -1px;
+            width: 100%;
+            height: 5px;
+            transform-origin: left top;
+            height: 5px;
+            border-radius: 120px;
+        }
+        .swiper-pagination-progressbar {
+            background: #D9D9D9;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 5px;
+            transform-origin: left top;
+            height: 5px;
+            border-radius: 120px;
+            margin-bottom: 0px;
 
+        }
         .branch{
             margin-left: 10px;
             margin-right: 10px;
@@ -798,7 +932,7 @@ header{
             color: $color_primary;
             border-radius: 45px;
             position: relative;
-            background-color: transparent;
+            background-color: #c8d6df;
             transition: .5s all;
             img{
                 transition: .5s all;
@@ -1224,8 +1358,61 @@ footer{
 }
 
 @media only screen and (max-width: 768px){
+    footer {
+        padding-top: 30px;
+        text-align: center;
+         .social {
+            align-items: center;
+            justify-content: center;
+        }
+         .f_menu .f_menu_item a{
+            text-align: center;
+            width: 100%;
+        }
+        .footer_logo{
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .container {
+            max-width: 75%;
+        }
+    }
+    .customer_comments {
+        padding-top: 41px;
+        padding-bottom: 51px;
+        .index_title {
+            margin-bottom: 30px;
+        }
+    }
+    .branches {
+        background-color: #C8D6DF;
+        padding-top: 50px;
+        padding-bottom: 55px;
+        .branch_list{
+            margin-top: 0px;
+        }
+    }
     .h2 {
         font-size: 30px;
+    }
+    .popular_sales {
+        margin-top: 35px;
+    }
+    .slider{
+        .main_slider {
+            height: 475px;
+            border-radius: 15px;
+        }
+    }
+    .popular_sales #pills-tab {
+        margin-top: 20px;
+    }
+    .index_title {
+        font-size: 22px;
+    }
+    .popular_sales #pills-tab .nav-item .nav-link {
+        font-size: 15px;
+        margin: 0 0;
     }
     footer .the_last_col_of_us {
         max-width: 276px;
@@ -1235,6 +1422,12 @@ footer{
     footer .footer_logo {
         max-width: 200px;
     }
+    .slider .tum_sehirler nav #nav-tab .nav-link {
+        font-size: 15px;
+    }
+    .slider .tum_sehirler .tab-content #all_city, .slider .tum_sehirler .tab-content .input_area {
+        font-size: 15px;
+    }
     .customer_comments .customer_comments_slider .swiper-wrapper .swiper-slide-active .text .h5 {
         font-size: 18px !important;
     }
@@ -1242,13 +1435,111 @@ footer{
         width: 25px !important;
         height: 24px !important;
     }
+    .popular_sales #pills-tabContent .one_cikanlar .swiper-slide .btns_cat {
+        a{
+            img{
+                margin: 0 4px;
+            }
+        }
+    }
+    .popular_category {
+        padding-top: 15px;
+        .kategori {
+            margin-top: 25px;
+        }
+    }
+    
+    .customer_comments .customer_comments_slider .swiper-wrapper .swiper-slide-active .profile_photo img {
+        width: 65px !important;
+        height: 65px !important;
+    }
+    .customer_comments .customer_comments_slider .swiper-wrapper .swiper-slide-active .text .h5 {
+        font-size: 12px !important;
+    }
+    .customer_comments .customer_comments_slider .swiper-wrapper .swiper-slide-active {
+        width: 100% !important;
+        height: 288px !important;
+    }
+    .popular_category .content .text_area {
+        height: 130px;
+    }
+    .popular_category .content {
+        height: 344px;
+    }
+    .popular_category .width_area {
+        margin-bottom: -263px;
+        height: 290px;
+    }
+    .popular_sales #pills-tabContent .one_cikanlar .swiper-slide .text_area .price {
+        padding: 6px 15px;
+        font-size: 15px;
+    }
+    .h3 {
+        font-size: 15px;
+    }
+    .popular_sales #pills-tabContent .one_cikanlar .swiper-slide .text_area {
+        font-size: 12px;
+        max-width: 202px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .popular_sales #pills-tabContent .one_cikanlar .swiper-pagination {
+        max-width: 212px;
+        height: 5px;
+    }
+    .popular_sales #pills-tabContent .one_cikanlar .swiper-slide {
+        font-size: 12px;
+    }
+    .slider .main_slider .swiper-slide .text_area {
+        margin-top: 25px;
+    }
+    .popular_sales #pills-tabContent .one_cikanlar {
+        margin-top: 25px;
+    }
+    header {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .slider .main_slider .swiper-slide .text_area h2 {
+        margin-bottom: 15px;
+    }
+    .h2 {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    p, .s1 {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+    .slider .main_slider .slide_buttons{
+        bottom: 40px;
+        .swiper-button-prev {
+            left: 22px;
+        }
+         .swiper-button-next {
+            right: 24px;
+        }
+         .swiper-pagination {
+            padding: 16px 55px;
+        }
+    }
+
+    header .menu_header .menu_open_button {
+        img{
+            max-width: 24px;
+            width: 100%;
+            height: auto;
+        }
+    }
     .slider {
         margin-top: 10px;
-        
+        padding-left: 15px;
+        padding-right: 15px;
          .main_slider .swiper-slide{
             img {
                 border-radius: 30px;
-                min-height: 730px;
+                min-height: 475px;
             }
             .text_area {
                 max-width: 505px;
@@ -1260,9 +1551,9 @@ footer{
             margin-bottom: 10px;
         }
         .tum_sehirler {
-            top: 165px;
+            top: 125px;
             .tab-content {
-                max-width: 95%;
+                max-width: 75%;
                 margin-right: auto;
                 margin-left: auto;
             }
@@ -1281,9 +1572,9 @@ footer{
             li {
                 margin-left: 6px;
                 a {
-                    border-radius: 15px;
-                    padding: 8px 6px;
-                    font-size: 16px;
+                    border-radius: 8px;
+                    padding: 6px 12px;
+                    font-size: 12px;
                 }
             }
         }
@@ -1326,6 +1617,27 @@ footer{
 }
 
 @media only screen and (max-width: 576px) {
+    .branches .branch_list {
+        .branch {
+            max-width: 280px;
+        }
+       .branch_slider {
+            margin-top: 25px;
+        }
+    }
+    .branches .swiper-wrapper {
+        width: 282px;
+    }
+    .customer_comments {
+        .slider_customer {
+            .text{
+                max-width: 220px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
     .customer_comments .customer_comments_slider .swiper-wrapper .swiper-slide-active {
         width: 100% !important;
         height: 527px !important;
