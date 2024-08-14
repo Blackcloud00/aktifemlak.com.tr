@@ -648,6 +648,21 @@ header{
         color: #1C1C1E;
     }
 }
+.category_list .item_input_area {
+    border-radius: 0px;
+    max-width: 70%;
+    .img_area {
+        max-width: 18px;
+        margin-left: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+        img{
+            width: 100%;
+            height: auto;
+  
+        }
+    }
+}
     .category {
         display: none;
         .list_area .list_item a img {
@@ -945,6 +960,7 @@ header{
             font-size: 12px !important;
         }
     }
+
     .category_list .assive .item_features .price_area {
         padding: 4px 8px;
     }
@@ -976,7 +992,7 @@ header{
     .category_list .assive {
         .just_list_fetures{
             margin-left: auto;
-            max-width: 260px;
+            max-width: 100%;
         .feature_list .feature span{
             font-size: 11px;
             line-height: 11px;
@@ -1024,6 +1040,23 @@ header{
 }
 
 @media only screen and (max-width: 768px){
+    .category_list {
+        .item_input_area {
+            padding: 15px;
+        }
+         .form-group {
+            .form-title {
+                font-size: 18px;
+                margin-top: 15px;
+            }
+              select {
+                font-size: 14px;
+            }
+              label, input{
+                font-size: 14px;
+            }
+        }
+    }
     .category_list .assive {
         .item_features{
             .feature_list{

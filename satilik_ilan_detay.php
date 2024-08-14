@@ -24,7 +24,7 @@
 </head>
 <body>
     
-    <?php  include "_header.php";  ?>
+    <?php  include "_sub_header.php";  ?>
 
     <?php  include "_ilan_detay.php";  ?>
 

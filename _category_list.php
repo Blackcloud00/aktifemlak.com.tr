@@ -4,7 +4,7 @@
             <div class="col-lg-5">
                 <div class="text"><span class="black">“Satılık Ev”</span> aramanızda <span class="blue">123.456</span> ilan bulundu</div>
             </div>
-            <div class="col-lg-7 d-flex justify-content-lg-end justify-content-start mt-lg-0 mt-xl-4 mt-3 special_buttons">
+            <div class="col-lg-7 d-flex justify-content-lg-end justify-content-md-start justify-content-center mt-lg-0 mt-xl-4 mt-3 special_buttons">
                 <div class="form-group d-md-none d-flex">
                     <a id="filter_button" class="openFilterMenu" title="Filtreler">Filtreler</a>
                 </div>
@@ -36,6 +36,9 @@
         </div>
         <div class="row mb-4">
             <div class="col-xl-3 item_input_area">
+                <div class="img_area d-xl-none d-flex">
+                    <a class="btn_menu_close openFilterMenu"><img src="assets/image/icons/cancel.png" width="60" height="60" alt="Aktif Emlak Hamburger"></a>
+                </div>
                 <div class="form-group">
                     <input type="text" placeholder="Arama" name="search">
                 </div>
