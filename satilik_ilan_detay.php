@@ -24,7 +24,7 @@
 </head>
 <body>
     
-    <?php  include "_sub_header.php";  ?>
+    <?php  include "_sub_header_detail.php";  ?>
 
     <?php  include "_ilan_detay.php";  ?>
 
@@ -37,5 +37,6 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/index.js"></script>
     <script type="text/javascript" src="assets/js/ilan_detay.js"></script>
+    <script type="text/javascript" src="assets/js/lib/fancybox.umd.js"></script>
 </body>
 </html>

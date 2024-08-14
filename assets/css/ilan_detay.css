@@ -470,7 +470,11 @@
   }
   .ilan_detay .information_area .data {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .ilan_detay .information_area .data .f_menu {
     margin-top: 25px;
@@ -499,5 +503,171 @@
   }
   .ilan_detay .just_max .h4-sml span {
     font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ilan_detay .information_area {
+    transition: 0.5s all;
+  }
+  .ilan_detay .tum_sehirler #nav-video .video_gal_item svg, .ilan_detay .ilan_detay .tum_sehirler #nav-sanal .video_gal_item svg {
+    max-width: 40px;
+    height: -moz-fit-content;
+    height: fit-content;
+    bottom: -30px;
+  }
+  .scrolled .information_area {
+    top: 0;
+    position: fixed !important;
+    z-index: 80;
+  }
+  header .menu_header .logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .category_list .cat {
+    font-size: 14px;
+    padding: 5px 12px;
+  }
+  .ilan_detay .tum_sehirler .img_video {
+    margin-top: 0px !important;
+  }
+  .ilan_detay .h4-sml {
+    text-align: center;
+    color: #186089;
+  }
+  .ilan_detay .cnt_content h5 {
+    font-size: 19px;
+  }
+  .ilan_detay .cnt_content label {
+    color: var(--Primary, #186089);
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .ilan_detay .price {
+    font-size: 19px;
+    border-radius: 10px !important;
+  }
+  .ilan_detay .just_max table {
+    font-size: 13px;
+  }
+  .ilan_detay .just_max .price {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .ilan_detay .text_item .h4-sml {
+    color: #186089;
+  }
+  .ilan_detay #nav-tab {
+    border-bottom: 4px solid #011E2E;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+    display: flex;
+    align-items: end;
+  }
+  .ilan_detay .just_max .text_adres {
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+  .ilan_detay .nav-link {
+    padding: 8px 4px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #011E2E;
+    color: white;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    opacity: 1;
+    height: 26px;
+    transition: 0.5s all;
+  }
+  .ilan_detay .nav-link:first-child {
+    margin-left: 0;
+  }
+  .ilan_detay .nav-link:last-child {
+    margin-right: 0;
+  }
+  .ilan_detay .nav-link.active {
+    background-color: #186089;
+    height: 35px;
+  }
+  .ilan_detay .nav-link {
+    font-size: 12px;
+  }
+  .ilan_detay .h4-sml {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .ilan_detay .cnt_content input, .ilan_detay .cnt_content textarea {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+  .ilan_detay .information_area {
+    margin-bottom: 20px;
+  }
+  .ilan_detay .cnt_content .ilan_slider {
+    height: 250px;
+  }
+  .ilan_detay .cnt_content .ilan_slider .slide_buttons {
+    bottom: 10px;
+  }
+  .ilan_detay .just_icon_absol {
+    padding-left: 0;
+    left: 0;
+    right: 0;
+    padding-top: 15px;
+  }
+  .ilan_detay .cnt_special_content {
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    border: 0;
+  }
+  .ilan_detay .cnt_special_content .ilan_slider .swiper-slide img {
+    border-radius: 0;
+  }
+  .ilan_detay .just_icon_absol .list_btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .ilan_detay .information_area .data .button_call .telefon svg {
+    max-width: 15px;
+    width: 100%;
+    height: auto;
+  }
+  .ilan_detay .information_area .data .img_w_text {
+    display: flex;
+    align-items: center;
+  }
+  .ilan_detay .information_area .data .img_w_text .text {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .ilan_detay .information_area .data .img_w_text .img_item {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .ilan_detay .information_area .data .button_call .text_item .s3 {
+    font-size: 12px;
+  }
+  .ilan_detay #nav-yakin-tab {
+    display: none;
+  }
+  .ilan_detay #nav-video-tab {
+    margin-right: 0;
+  }
+  .ilan_detay .information_area .data .img_w_text {
+    max-width: 40%;
+  }
+  .ilan_detay .information_area .data .img_w_text .s1 {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=ilan_detay.css.map */

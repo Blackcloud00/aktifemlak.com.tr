@@ -37,7 +37,7 @@
         <div class="row mb-4">
             <div class="col-xl-3 item_input_area">
                 <div class="img_area d-xl-none d-flex">
-                    <a class="btn_menu_close openFilterMenu"><img src="assets/image/icons/cancel.png" width="60" height="60" alt="Aktif Emlak Hamburger"></a>
+                    <a class="btn_menu_close openFilterMenu">Kapat<img src="assets/image/icons/cancel.png" width="15" height="15"  alt="Aktif Emlak Hamburger"></a>
                 </div>
                 <div class="form-group">
                     <input type="text" placeholder="Arama" name="search">

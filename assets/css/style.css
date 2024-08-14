@@ -1355,7 +1355,7 @@ footer .w-full_bg .special_image_for_footer {
   }
   footer .the_last_col_of_us {
     max-width: 276px;
-    margin-left: 0;
+    margin-left: auto;
     margin-right: auto;
   }
   footer .footer_logo {

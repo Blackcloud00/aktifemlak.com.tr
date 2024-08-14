@@ -654,12 +654,18 @@ header{
     .img_area {
         max-width: 18px;
         margin-left: auto;
-        margin-right: 0;
+        margin-right: 60px;
         margin-bottom: 15px;
+        a{
+            display: flex;
+            align-items: end;
+
+        }
         img{
             width: 100%;
             height: auto;
-  
+            max-width: 20px;
+            margin-left: 10px;  
         }
     }
 }
@@ -726,8 +732,19 @@ header{
 }
 
 @media only screen and (max-width: 768px) {
-    .category_list .special_buttons .cat_button, .category_list .special_buttons .aramayi_kaydet {
-        
+    header{
+        .menu_header{
+         .geri_don_button{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            span{
+                margin-left: 5px;
+                color: white;
+                font-size: 11px;
+            }
+         }   
+        }
     }
     .just_breadcumb {
         ul{
@@ -984,7 +1001,7 @@ header{
         line-height: 21px;
     }
     .category_list .form-group a, .category_list .aramayi_kaydet {
-        font-size: 15px !important;
+        font-size: 18px !important;
     }
     .category_list #filter_button {
         padding: 7px 10px;
