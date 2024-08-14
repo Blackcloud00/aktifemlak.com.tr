@@ -876,22 +876,41 @@ header .menu_open_button {
   .just_breadcumb a {
     font-size: 12px !important;
   }
+  .category_list .assive .item_features .price_area {
+    padding: 4px 8px;
+  }
+  .category .list_area {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+  }
+  .category_list .cate_text {
+    margin-bottom: 0px;
+  }
+  .category_list .aramayi_kaydet span {
+    margin-right: 0px;
+  }
+  .category .list_area .list_item {
+    margin-left: 0px;
+  }
   .category_list .aramayi_kaydet {
-    padding: 4px 3px;
+    padding: 4px 10px;
     margin-left: 5px;
+    line-height: 21px;
   }
   .category_list .form-group a, .category_list .aramayi_kaydet {
-    font-size: 12px !important;
+    font-size: 15px !important;
   }
   .category_list #filter_button {
-    padding: 7px;
+    padding: 7px 10px;
   }
   .category_list .assive .just_list_fetures {
     margin-left: auto;
     max-width: 260px;
   }
   .category_list .assive .just_list_fetures .feature_list .feature span {
-    font-size: 9px;
+    font-size: 11px;
+    line-height: 11px;
   }
   .category_list .assive .title_super {
     margin-top: 0px;

@@ -8,7 +8,7 @@
                 <div class="form-group d-md-none d-flex">
                     <a id="filter_button" class="openFilterMenu" title="Filtreler">Filtreler</a>
                 </div>
-                <a href="#" title="Aramayı Kaydet" class="aramayi_kaydet"><span>Aramayı Kaydet</span><img src="assets/image/icons/star_item.png" width="16" height="16" alt="Aramayı Kaydet"></a>
+                <a href="#" title="Aramayı Kaydet" class="aramayi_kaydet d-md-flex d-none"><span>Aramayı Kaydet</span><img src="assets/image/icons/star_item.png" width="16" height="16" alt="Aramayı Kaydet"></a>
                 <a style="cursor:pointer;" class="cat_button grid_button grd_button d-md-flex d-none">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                     <path d="M8.5 1H1.96154C1.4305 1 1 1.4305 1 1.96154V8.5C1 9.03104 1.4305 9.46154 1.96154 9.46154H8.5C9.03104 9.46154 9.46154 9.03104 9.46154 8.5V1.96154C9.46154 1.4305 9.03104 1 8.5 1Z" stroke="#186089" stroke-linecap="round" stroke-linejoin="round"/>
@@ -409,7 +409,7 @@
                                         <div class="d-md-none d-flex feature_list">
                                                 <div class="feature">
                                                     <div class="img">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 23 21" fill="none">
                                                             <path d="M21.6 15.284H1M21.6 15.284L19.3 8.18404H3.30002L1 15.284M21.6 15.284V20.084H18.4V18.384H4.20001V20.084H1V15.284M19.3 8.08404V3.28403C19.3 2.28403 18.5 1.38403 17.4 1.38403H5.10001C4.10001 1.38403 3.20001 2.18403 3.20001 3.28403V8.08404M11.3 8.08404V6.48403M11.3 6.48403C11.3 5.68403 10.6 4.98403 9.80002 4.98403H8.10001C7.30001 4.98403 6.60001 5.68403 6.60001 6.48403V8.08404M11.3 6.48403C11.3 5.68403 12 4.98403 12.8 4.98403H14.5C15.3 4.98403 16 5.68403 16 6.48403V8.08404" stroke="#C8D6DF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                                                         </svg>
                                                     </div>
@@ -420,7 +420,7 @@
                                                 </div>
                                                 <div class="feature">
                                                     <div class="img">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="17" viewBox="0 0 32 17" fill="none">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="8" viewBox="0 0 32 17" fill="none">
                                                         <path d="M29.2001 5.23423C29.2001 9.73423 25.5001 13.4342 21.0001 13.4342H11.7001C7.2001 13.4342 3.50009 9.73423 3.50009 5.23423M1.6001 5.23423H31.0001M10.4001 13.3342L7.6001 16.1342M22.3001 13.3342L25.1001 16.1342M9.6001 2.93423C9.6001 2.03423 8.90009 1.33423 8.00009 1.33423H7.90012C7.00012 1.33423 6.30011 2.03423 6.30011 2.93423V5.23423" stroke="#C8D6DF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                                                     </svg>
                                                     </div>
@@ -431,7 +431,7 @@
                                                 </div>
                                                 <div class="feature">
                                                     <div class="img">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25" fill="none">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 26 25" fill="none">
                                                         <path d="M25.2 13.684H21.3V24.084H4.90002V13.684H1L13.1 1.38403L25.2 13.684ZM13.1 13.384C12.2 10.984 8.6 11.484 8.5 13.984C8.5 17.284 12 17.784 13.1 19.384C14.2 17.684 17.7 17.184 17.7 13.984C17.6 11.484 14 10.984 13.1 13.384Z" stroke="#C8D6DF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                                                     </svg>
                                                     </div>
@@ -442,7 +442,7 @@
                                                 </div>
                                                 <div class="feature ftr_risk">
                                                     <div class="img">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="23" viewBox="0 0 14 23" fill="none">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 14 23" fill="none">
                                                         <path d="M5.19995 8.33412H4.19995M5.19995 11.1341H4.19995M5.19995 13.8341H4.19995M9.49994 8.33412H8.49994M9.49994 11.1341H8.49994M9.49994 13.8341H8.49994M8.3999 21.7341V17.4341H5.3999V21.7341M12.4999 21.7341H1.19995V5.43413L6.79993 1.73413L12.3999 5.43413V21.7341H12.4999Z" stroke="#C8D6DF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                                                     </svg>
                                                     </div>
@@ -453,7 +453,7 @@
                                                 </div>
                                                 <div class="feature ftr_risk">
                                                     <div class="img">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 25 23" fill="none">
                                                         <path d="M12.6 22.0999H1.5V11.5999L12.6 5.69989V22.0999ZM12.6 22.0999H23.7V7.2999L12.6 1.3999V22.0999ZM8.7 22.0999V15.7999H5.3V22.0999M19.8 22.0999V15.7999H16.4V22.0999M22.3 6.59991V1.69989H19.9V5.2999" stroke="#C8D6DF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                                                     </svg>
                                                     </div>
@@ -471,11 +471,11 @@
                                         </div>
                                         <div class="d-flex justify-content-between">
                                             <div class="sube_name_areas arama_icotmkas">
-                                                    <img src="assets/image/icons/ic_round-phone.png" width="24" height="24" alt="">
+                                                    <img src="assets/image/icons/ic_round-phone.png" style="margin-right:5px;" width="24" height="24" alt="">
                                                 <h5>Ara</h5>
                                             </div>
                                             <div class="sube_name_areas arama_icotmkas ortam_readfsam">
-                                                    <img src="assets/image/icons/tabler_message.png" width="24" height="24" alt="">
+                                                    <img src="assets/image/icons/tabler_message.png" style="margin-right:5px;" width="24" height="24" alt="">
                                                 <h5>Mesaj</h5>
                                             </div>
                                             <div class="sube_name_areas arama_icotmkasim">

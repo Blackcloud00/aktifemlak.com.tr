@@ -73,7 +73,6 @@ var swiper = new Swiper(".main_slider", {
   var swiper = new Swiper(".category-slider", {
     slidesPerView: 3,
     spaceBetween: 30,
-    autoplay: true,
     loop: true,
     breakpoints: {
       0: {
