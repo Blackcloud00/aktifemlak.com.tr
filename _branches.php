@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="branch_list d-md-none d-flex">
-                <div class="swiper branch_slider">
+            <div class="swiper branch_slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide branch">
                                 <img src="assets/image/icons/building.png" width="49" height="44" alt="Şube Adı">
@@ -89,7 +89,7 @@
                     </div>
                     <div class="swiper-pagination"></div>
 
-                </div>
             </div>
+        </div>
     </div>
 </section>

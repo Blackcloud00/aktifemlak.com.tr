@@ -70,6 +70,23 @@ var swiper = new Swiper(".main_slider", {
     },
   });
 
+  var swiper = new Swiper(".category-slider", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    autoplay: true,
+    loop: true,
+    breakpoints: {
+      0: {
+        slidesPerView: 3,
+        spaceBetween: 8,
+      },
+      992: {
+        slidesPerView: 5,
+        spaceBetween: 30,
+      },
+    },
+  });
+
   var swiper = new Swiper(".customer_comments_slider", {
     slidesPerView: 'auto',
     spaceBetween: 15,

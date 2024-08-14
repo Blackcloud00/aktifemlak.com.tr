@@ -22,8 +22,16 @@
 </head>
 <body>
     
-    <?php  include "_header.php";  ?>
+    <?php  include "_sub_header.php";  ?>
     
+    <div class="just_breadcumb mt-2 d-md-none d-flex">
+        <ul>
+            <li><a href="#" title="Ana Sayfa">Ana Sayfa</a></li>
+            <li><a href="#" title="Satılık">Satılık</a></li>
+            <li><a href="#" title="Konut">Konut</a></li>
+        </ul>
+    </div>
+
     <?php  include "_header_banner.php";  ?>
 
     <?php  include "_category.php";  ?>
