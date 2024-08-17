@@ -8,6 +8,8 @@
                 <div class="img_area">
                     <a class="btn_menu_close openMenu"><img src="assets/image/icons/cancel.png" width="60" height="60" alt="Aktif Emlak Hamburger"></a>
                 </div>
+                <img src="assets/image/bizde-yoksa-3.gif" style="width: 100%;" class="d-xl-none d-block" alt="">
+
                 <li class="menu_li active">
                     <a href="index.php" title="Ana Sayfa">Ana Sayfa</a>
                 </li>

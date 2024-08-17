@@ -1233,6 +1233,15 @@ footer .w-full_bg .special_image_for_footer {
   }
 }
 @media only screen and (max-width: 1225px) {
+  header .menu_header .menu_ul {
+    z-index: 100;
+  }
+  header .menu_header .menu_ul .menu_li {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #767e7e;
+  }
   .header_banner {
     margin-top: 10px;
   }
@@ -1264,6 +1273,7 @@ footer .w-full_bg .special_image_for_footer {
     justify-content: center;
     right: -270px;
     transition: 0.5s all;
+    z-index: 100;
   }
   header .menu_header .menu_ul .img_area {
     display: block;
@@ -1299,6 +1309,9 @@ footer .w-full_bg .special_image_for_footer {
   }
 }
 @media only screen and (max-width: 768px) {
+  footer .the_last_col_of_us {
+    display: none;
+  }
   footer {
     padding-top: 30px;
     text-align: center;

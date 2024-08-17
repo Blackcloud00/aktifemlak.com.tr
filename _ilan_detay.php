@@ -121,6 +121,29 @@
                         <div class="tab-content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="nav-text" role="tabpanel" aria-labelledby="nav-text-tab">
                                 <h4 class="h4-sml">İlan Bilgileri</h4>
+                                <ul class="share mt-4">
+                                    <span class="s2">Paylaş</span>
+                                    <li>
+                                        <a href="#" title="Kopyala">
+                                            <img src="assets/image/icons/chain.png" width="16" height="16" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Facebook">
+                                            <img src="assets/image/icons/face.png" width="16" height="16" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Twitter">
+                                            <img src="assets/image/icons/twit.png" width="20" height="16" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Linkedin">
+                                            <img src="assets/image/icons/linkedin.png" width="16" height="16" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
                                 <div class="text_adres s1">Balıkesir / Edremit / Altınkum Mh.</div>
                                 <div class="price h4-sml">12.200.000₺</div>
                                 <table class="table">
@@ -769,17 +792,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item_col-9_area mt-4">
-                        <?php
-                            $title= "Benzer İlanlar";
-                            $class= "";
-                            include "_benzer_ilanlar.php";  ?>
-        
-                    </div>
                 </div>
                 <div class="col-xl-4">
                     <div class="cnt_content">
                         <h4 class="h4-sml">İlan Bilgileri</h4>
+                        
                         <div class="text_adres s1">Balıkesir / Edremit / Altınkum Mh.</div>
                         <div class="price h4-sml">12.200.000₺</div>
                         <table class="table">

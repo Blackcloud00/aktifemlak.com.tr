@@ -205,7 +205,6 @@ header .menu_open_button {
   border: 1px solid rgba(1, 30, 46, 0.3) !important;
 }
 .category_list .aramayi_kaydet {
-  padding: 4px 10px;
   border-radius: 10px;
   border: 1px solid #186089;
   color: #186089;
@@ -215,6 +214,9 @@ header .menu_open_button {
   width: fit-content;
   font-size: 20px;
   margin-left: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }
 .category_list .aramayi_kaydet span {
   margin-right: 10px;
@@ -656,12 +658,16 @@ header .menu_open_button {
     margin-top: 15px;
   }
   .category_list #filter_button {
-    padding: 10px;
     background-color: #186089;
     border: 1px solid #186089;
     color: white;
     transition: 0.5s all;
     border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .category_list .item_input_area {
     position: fixed;
@@ -685,6 +691,9 @@ header .menu_open_button {
   }
 }
 @media only screen and (max-width: 768px) {
+  .ilan_detay .cnt_content .share span {
+    margin-top: 7px !important;
+  }
   header .menu_header .geri_don_button {
     position: absolute;
     display: flex;
@@ -797,8 +806,21 @@ header .menu_open_button {
     justify-content: start;
     align-items: start;
   }
+  .category_list .assive .item_features .share_items {
+    margin-top: 10px !important;
+    padding: 0px 10px;
+    background-color: #011E2E;
+    border: 1px solid #011E2E;
+    border-radius: 5px;
+  }
+  .category_list .assive .item_features .share_items span {
+    letter-spacing: 1.5px;
+    color: white;
+    font-size: 10px;
+    line-height: 10px;
+  }
   .category_list .assive .item_features .adress_items {
-    margin-top: 10px;
+    margin-top: 15px;
   }
   .category_list .assive .item_features .price_area {
     border: 1px solid #011E2E;
@@ -845,8 +867,6 @@ header .menu_open_button {
     margin-bottom: 15px;
   }
   .category_list .aramayi_kaydet {
-    height: -moz-fit-content;
-    height: fit-content;
     background-color: #011E2E;
     color: white;
   }
@@ -923,11 +943,6 @@ header .menu_open_button {
   .category .list_area .list_item {
     margin-left: 0px;
   }
-  .category_list .aramayi_kaydet {
-    padding: 4px 10px;
-    margin-left: 5px;
-    line-height: 21px;
-  }
   .category_list .form-group a, .category_list .aramayi_kaydet {
     font-size: 18px !important;
   }
@@ -976,6 +991,17 @@ header .menu_open_button {
   }
 }
 @media only screen and (max-width: 768px) {
+  .category_list .aramayi_kaydet {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .category_list .aramayi_kaydet span {
+    margin-right: 0px;
+  }
   .category_list .item_input_area {
     padding: 15px;
   }
@@ -991,5 +1017,15 @@ header .menu_open_button {
   }
   .category_list .assive .item_features .feature_list {
     display: none !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .category_list #filter_button, .category_list .aramayi_kaydet {
+    height: 30px;
+    width: 80px;
+    font-size: 12px !important;
+  }
+  .category_list #filter_button span, .category_list .aramayi_kaydet span {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=satilik_ilanlar.css.map */

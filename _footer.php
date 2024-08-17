@@ -43,7 +43,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4  d-md-block d-none">
                         <ul class="f_menu d-flex flex-column align-items-md-center">
                             <li class="f_menu_item">
                                 <a href="#" title="Satılık">Satılık</a>
@@ -65,7 +65,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-md-block d-none">
                         <ul class="f_menu">
                             <li class="f_menu_item">
                                 <a href="#" title="Şubelerimiz">Şubelerimiz</a>
