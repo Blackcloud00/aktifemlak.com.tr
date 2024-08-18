@@ -182,6 +182,9 @@ header .menu_header .menu_ul .menu_li {
   margin-right: 12px;
   opacity: 0.6;
 }
+header .menu_header .menu_ul .menu_li a span {
+  display: none;
+}
 header .menu_header .menu_ul .active {
   opacity: 1;
 }
@@ -1254,6 +1257,13 @@ footer .w-full_bg .special_image_for_footer {
   }
   .openMenu header .menu_header .menu_ul {
     right: 0;
+  }
+  header .menu_header .menu_ul .menu_li a {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .menu_header .menu_ul .menu_li a span {
+    display: block;
   }
   header .menu_header .menu_ul {
     padding: 12px 24px;

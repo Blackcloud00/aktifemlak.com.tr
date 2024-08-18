@@ -643,11 +643,14 @@ header{
 }
 
 @media only screen and (max-width: 1200px) {
+    header .menu_header .menu_ul .img_area img {
+        filter: invert(1);
+    }
     header .menu_header .menu_ul {
-    background-color: #f1f1f1 !important;
-    color: #1C1C1E   !important;
+    background-color: #011e2e !important;
+    color: #ffffff  !important;
     a {
-        color: #1C1C1E;
+        color: #ffffff;
     }
 }
 .category_list .item_input_area {

@@ -181,6 +181,11 @@ header{
                 margin-left: 12px;
                 margin-right: 12px;
                 opacity: 0.6;
+                a{
+                    span{
+                        display: none;
+                    }
+                }
             }
             .active{
                 opacity: 1;
@@ -1301,6 +1306,15 @@ footer{
     .openMenu{
         header .menu_header .menu_ul {
             right: 0;
+        }
+    }
+    header .menu_header .menu_ul .menu_li {
+        a{
+            display: flex;
+            justify-content: space-between;
+            span{
+                display: block;
+            }
         }
     }
     header .menu_header{

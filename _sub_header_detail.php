@@ -12,33 +12,33 @@
                 <div class="img_area">
                     <a class="btn_menu_close openMenu"><img src="assets/image/icons/cancel.png" width="60" height="60" alt="Aktif Emlak Hamburger"></a>
                 </div>
-                <img src="assets/image/bizde-yoksa-3.gif" style="width: 100%;" class="d-xl-none d-block" alt="">
+                <img src="assets/image/logo-is-logo.png" style="width: 100%;" class="d-xl-none d-block" alt="">
                 <li class="menu_li active">
-                    <a href="index.php" title="Ana Sayfa">Ana Sayfa</a>
+                    <a href="index.php" title="Ana Sayfa">Ana Sayfa <span>></span></a>
                 </li>
                 <li class="menu_li">
-                    <a href="satilik_ilanlar_liste.php" title="Satılık">Satılık</a>
+                    <a href="satilik_ilanlar_liste.php" title="Satılık">Satılık <span>></span></a>
                 </li>
                 <li class="menu_li">
-                    <a href="#" title="Kiralık">Kiralık</a>
+                    <a href="#" title="Kiralık">Kiralık <span>></span></a>
                 </li>
                 <li class="menu_li">
-                    <a href="#" title="Konut">Konut</a>
+                    <a href="#" title="Konut">Konut <span>></span></a>
                 </li>
                 <li class="menu_li">
-                    <a href="#" title="Arsa">Arsa</a>
+                    <a href="#" title="Arsa">Arsa <span>></span></a>
                 </li>
                 <li class="menu_li">
-                    <a href="#" title="Villa">Villa</a>
+                    <a href="#" title="Villa">Villa <span>></span></a>
                 </li>
                 <li class="menu_li">
-                    <a href="#" title="İşyeri">İşyeri</a>
+                    <a href="#" title="İşyeri">İşyeri <span>></span></a>
                 </li>
                 <li class="menu_li">
-                    <a href="kurumsal.php" title="Kurumsal">Kurumsal</a>
+                    <a href="kurumsal.php" title="Kurumsal">Kurumsal <span>></span></a>
                 </li>
                 <li class="menu_li">
-                    <a href="iletisim.php" title="İletişim">İletişim</a>
+                    <a href="iletisim.php" title="İletişim">İletişim <span>></span></a>
                 </li>
             </ul>
             <ul class="menu_buttons d-md-flex d-none">
