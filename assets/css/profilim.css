@@ -526,6 +526,43 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .profilim_bilgiler .container .item_form_area {
+    min-height: 0;
+  }
+  .favori_ilanlar .item_form_area {
+    padding: 15px 30px;
+  }
+  .mobilKarsilama .container {
+    max-width: 100% !important;
+    text-align: center;
+  }
+  .mobilKarsilama .container .btn {
+    background-color: #186089;
+    color: white;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .mobilKarsilama .container .btn a {
+    line-height: 20px;
+    color: white;
+    font-size: 20px;
+  }
+  .profilim_bilgiler .container {
+    max-width: 100%;
+  }
+  .profilim_bilgiler .container .item_form_area h4 {
+    font-size: 20px;
+  }
+  .profilim_bilgiler .container .web_input_group input {
+    font-size: 16px;
+  }
+  .profilim_bilgiler .container .web_input_group .form-group button {
+    font-size: 16px;
+  }
+  .profilim_bilgiler .container .dflexprofilim {
+    justify-content: center;
+  }
   .aramalar .item_form_area .title_area .title {
     font-size: 16px;
   }
@@ -543,7 +580,7 @@
   }
   .profilim_bilgiler .container .web_input_group .form-group .input_items {
     width: 100%;
-    max-width: 418px;
+    max-width: 100%;
   }
   .profilim_bilgiler .container .web_input_group {
     padding: 30px 15px 0 15px;
@@ -564,6 +601,15 @@
   }
   .urunler_karsilastirma .uruns .resim_area img {
     max-width: 222px;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .dflexBtns {
+    display: flex;
+    flex-direction: column;
+  }
+  .dflexBtns .btn {
+    margin-bottom: 10px;
   }
 }
 @media only screen and (max-width: 500px) {

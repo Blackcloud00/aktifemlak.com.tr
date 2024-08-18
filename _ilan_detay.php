@@ -1,4 +1,4 @@
-<section class="ilan_detay category_list" id="myElementCheck">
+<section class="ilan_detay category_list" id="myElementCheck">  
     <div class="information_area">
         <div class="data">
             <div class="img_w_text d-flex align-items-center">
@@ -144,7 +144,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                                <div class="text_adres s1">Balıkesir / Edremit / Altınkum Mh.</div>
+                                <div class="text_adres s1 d-md-block d-none">Balıkesir / Edremit / Altınkum Mh.</div>
                                 <div class="price h4-sml">12.200.000₺</div>
                                 <table class="table">
                                     <tbody>
@@ -405,10 +405,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-xl-4 ">
                 <div class="cnt_content d-md-block d-none">
                     <h4 class="h4-sml">İlan Bilgileri</h4>
-                    <div class="text_adres s1">Balıkesir / Edremit / Altınkum Mh.</div>
+                    <div class="text_adres s1 ">Balıkesir / Edremit / Altınkum Mh.</div>
                     <div class="price h4-sml">12.200.000₺</div>
                     <table class="table">
                         <tbody>
@@ -539,22 +539,34 @@
                         </div>
                         <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
+                                    <a data-fancybox="video_gallery" style="cursor:pointer;" class="pos-rel video_gal_item mt-4" data-src="assets/image/slider/slider_1.png">    
+                                        <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
+                                    </a>
                                 </div>
                                 <div class="swiper-slide">
+                                  <a data-fancybox="video_gallery" style="cursor:pointer;" class="pos-rel video_gal_item mt-4" data-src="assets/image/slider/slider_1.png">    
                                     <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
+                                  </a>  
                                 </div>
                                 <div class="swiper-slide">
+                                  <a data-fancybox="video_gallery" style="cursor:pointer;" class="pos-rel video_gal_item mt-4" data-src="assets/image/slider/slider_1.png">    
                                     <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
+                                  </a>  
                                 </div>
                                 <div class="swiper-slide">
+                                  <a data-fancybox="video_gallery" style="cursor:pointer;" class="pos-rel video_gal_item mt-4" data-src="assets/image/slider/slider_1.png">    
                                     <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
+                                  </a>  
                                 </div>
                                 <div class="swiper-slide">
+                                  <a data-fancybox="video_gallery" style="cursor:pointer;" class="pos-rel video_gal_item mt-4" data-src="assets/image/slider/slider_1.png">    
                                     <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
+                                  </a>  
                                 </div>
                                 <div class="swiper-slide">
+                                  <a data-fancybox="video_gallery" style="cursor:pointer;" class="pos-rel video_gal_item mt-4" data-src="assets/image/slider/slider_1.png">    
                                     <img src="assets/image/slider/slider_1.png"  width="1640" height="700" alt="Tecrübe ile Güvenilir">
+                                  </a>  
                                 </div>
                         </div>
                         <div class="slide_buttons">
@@ -793,7 +805,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 mt-xl-0 mt-md-4">
                     <div class="cnt_content">
                         <h4 class="h4-sml">İlan Bilgileri</h4>
                         
@@ -909,13 +921,13 @@
 </section>
 <script type="module">
     window.addEventListener('scroll', function() {
-  var element = document.getElementById('myElementCheck');
-  if (window.scrollY > 120) { // Sayfa 120 piksel kaydırıldığında
-      element.classList.add('scrolled');
-  } else {
-      element.classList.remove('scrolled');
-  }
-});
+        var element = document.getElementById('myElementCheck');
+        if (window.scrollY > 120) { // Sayfa 120 piksel kaydırıldığında
+            element.classList.add('scrolled');
+        } else {
+            element.classList.remove('scrolled');
+        }
+    });
       import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.esm.js";
       Fancybox.bind('[data-fancybox="video_gallery"]', {
         //

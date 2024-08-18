@@ -530,6 +530,7 @@ $color_red : #A11105;
 }
 
 @media only screen and (max-width: 768px){
+
     .ilan_detay .cnt_content .ilan_slider .slide_buttons {
         width: 100%;
         height: 50px;
@@ -626,7 +627,7 @@ $color_red : #A11105;
             margin-left: 1.5px;
             margin-right: 1.5px;
             opacity: 1;
-            height: 26px;
+            height: 30px;
             transition: .5s all;
             &:first-child{
                 margin-left: 0;
@@ -641,9 +642,8 @@ $color_red : #A11105;
         }
     }
     .ilan_detay .nav-link {
-        font-size: 12px;
+        font-size: 16px !important;
     }
-    
     .ilan_detay .h4-sml {
         font-size: 18px;
         padding-left: 10px;
@@ -713,12 +713,7 @@ $color_red : #A11105;
             font-size: 12px;
         }
     }
-    .ilan_detay #nav-yakin-tab {
-        display: none;
-    }
-    .ilan_detay #nav-video-tab {
-        margin-right: 0;
-    }
+
     .ilan_detay .information_area .data .img_w_text {
         max-width: 40%;
         .s1{
@@ -726,4 +721,20 @@ $color_red : #A11105;
         }
     }
 
+}
+
+@media only screen and (max-width: 450px){ 
+    .ilan_detay .nav-link {
+        height: 26px;
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .ilan_detay #nav-video-tab {
+        margin-right: 0;
+    }
+    .ilan_detay #nav-yakin-tab {
+        display: none;
+    }
 }

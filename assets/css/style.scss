@@ -244,6 +244,56 @@ header{
     }
 }
 
+.zortMenu{
+    .menu_siralama{
+        right: 0;
+    }
+}
+.menu_siralama{
+    position: fixed;
+    z-index: 50;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    right: -300px;
+    top: 0;
+    transition: .5s all;
+    align-items: start;
+    justify-content: center;
+    .img_area{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        img{
+            max-width: 20px;
+            width: 100&;
+            height: auto;
+        }
+    }
+    ul{
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+        li{
+            width: 100%;
+            border-bottom: 1px solid $color_primary;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            text-align: start;
+            list-style-type: none;
+            a{
+                display: flex;
+                justify-content: space-between;
+                color: $color_primary;
+                font-size: 16px !important; 
+            }
+        }
+    }
+}
+
 .slider{
     margin-top: 30px;
     max-width: 1640px;

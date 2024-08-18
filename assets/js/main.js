@@ -159,6 +159,13 @@ $(document).ready(function() {
           a.toggleClass("openMenu");
       });
   }
+
+  if ($(".zortMenu").length) {
+    $(".zortMenu").click(function() {
+        var a = $("html");
+        a.toggleClass("zortMenu");
+    });
+}
 });
 
   AOS.init();

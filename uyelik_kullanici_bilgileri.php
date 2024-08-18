@@ -31,7 +31,7 @@
 
     <section class="profilim_bilgiler">
         <div class="container">
-            <div class="d-flex">
+            <div class="d-flex dflexprofilim">
                 <div class="item_menu_1">
                     <h4>Hoşgeldiniz</h4>
                     <ul class="menu_item">
