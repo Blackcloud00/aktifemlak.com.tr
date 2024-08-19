@@ -133,6 +133,9 @@ $color_red : #A11105;
 
 @media only screen and (max-width: 992px){
     .blog_area .iletisim_box {
+        padding: 0px 15px;
+    }
+    .blog_area .iletisim_box {
         .text_col_area{
             margin-top: 40px;
         }
@@ -140,6 +143,32 @@ $color_red : #A11105;
 }
 
 @media only screen and (max-width: 768px){
+    .h2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+    .blog_area .iletisim_box .social {
+        margin-top: 40px;
+    }
+    .h4-sml {
+        font-size: 25px;
+    }
+    .blog_area .iletisim_box .div_image a {
+        font-size: 18px;
+    }
+    .blog_area .iletisim_box .div_image {
+        padding: 15px 15px 30px 15px !important;
+    }
+    .blog_area .iletisim_box .div_image {
+        border-radius: 15px;
+    }
+    .blog_area .iletisim_box {
+        padding: 0px 15px 15px 15px;
+        border-radius: 15px;
+    }
+    .blog_area .iletisim_box input, .blog_area .iletisim_box textarea {
+        font-size: 16px;
+    }
     .blog_area .iletisim_box .div_image {
         padding: 60px 15px 30px 15px;
     }

@@ -29,7 +29,7 @@
         <img src="assets/image/blog_banner.jpg" width="1920" heigth="200" class="blog_item_bg" alt="Blog Banner">
         <div class="container  iletisim_box">
             <div class="row">
-                <div class="col-lg-6 justify-content-start">
+                <div class="col-lg-6 justify-content-start order-lg-0 order-1 mt-lg-0 mt-4">
                     <h3 class="h2">Bize Ulaşın</h3>
                     <p class="ss_area_item mt-4 mb-4">Aradığınız ilanı bulamadınız mı? Yardımcı olabiliriz! <br>
                     Lütfen iletişim formunu doldurun.</p>
@@ -55,7 +55,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-lg-6 justify-content-start text_col_area">
+                <div class="col-lg-6 justify-content-start text_col_area order-lg-1 order-0">
                     <div class="div_image" style="background-image:url('assets/image/bilgi-alani.jpg');">
                         <h4 class="h4-sml mb-3">İletişim Bilgileri</h4>
                         <p>Formu doldurduktan sonra ekibimiz en geç <br>
